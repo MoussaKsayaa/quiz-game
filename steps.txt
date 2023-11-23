@@ -1,0 +1,28 @@
+1- make json file and add questions and answers.
+2- create html content.
+- logo
+- categories option
+- the score
+- the questions number
+- countdown
+- the question section
+- the answer section
+- the button to check the question
+- make section for spans to put the questions numbers inside it
+3- styling the html code using css.
+4- start make js file.
+- connect to json file
+- get the categories from json file
+- generate the score and questions number
+- generate the questions and answers
+- make the action on the button to check if the answer is right or false
+in progress..
+- add one for the score if the answer is right
+- add one for the questions number when continue to the next question
+- make loop on the questions and create spans for every question
+- make active class for the current question
+- when the questions finish cerate a section to say excellant if the score > 8
+and good if the score > 5 and bad if the score <= 5
+5- check the game if there's any error or bug
+6- make sounds effects for the game
+7- upload the files on github and publish the site on the web.

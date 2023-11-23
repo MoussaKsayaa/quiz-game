@@ -1,0 +1,1354 @@
+{
+  "Programming": [
+    {
+      "Question": "What is the purpose of HTML?",
+      "Answers": {
+        "Answer-1": "To define the structure of web content",
+        "Answer-2": "To style the web content",
+        "Answer-3": "To create server-side logic",
+        "Answer-4": "To handle client-server communication"
+      },
+      "Correct-answer": "To define the structure of web content"
+    },
+    {
+      "Question": "What does JavaScript primarily enable in web development?",
+      "Answers": {
+        "Answer-1": "Styling web content",
+        "Answer-2": "Manipulating HTML and CSS",
+        "Answer-3": "Adding interactivity and behavior",
+        "Answer-4": "Managing server-side operations"
+      },
+      "Correct-answer": "Adding interactivity and behavior"
+    },
+    {
+      "Question": "What role does a compiler play in programming?",
+      "Answers": {
+        "Answer-1": "Translating high-level code to machine code",
+        "Answer-2": "Storing data in a database",
+        "Answer-3": "Managing server requests",
+        "Answer-4": "Creating web layouts"
+      },
+      "Correct-answer": "Translating high-level code to machine code"
+    },
+    {
+      "Question": "What is the purpose of a 'for' loop in programming?",
+      "Answers": {
+        "Answer-1": "Defining a function",
+        "Answer-2": "Iterating over a sequence of elements",
+        "Answer-3": "Creating CSS styles",
+        "Answer-4": "Handling exceptions"
+      },
+      "Correct-answer": "Iterating over a sequence of elements"
+    },
+    {
+      "Question": "In object-oriented programming, what is an 'interface'?",
+      "Answers": {
+        "Answer-1": "A graphical user interface",
+        "Answer-2": "A contract for the methods a class must implement",
+        "Answer-3": "A database connection",
+        "Answer-4": "A programming language"
+      },
+      "Correct-answer": "A contract for the methods a class must implement"
+    },
+    {
+      "Question": "What does the acronym 'API' stand for in programming?",
+      "Answers": {
+        "Answer-1": "Application Protocol Interface",
+        "Answer-2": "Automated Programming Instructions",
+        "Answer-3": "Advanced Program Interchange",
+        "Answer-4": "Application Programming Interface"
+      },
+      "Correct-answer": "Application Programming Interface"
+    },
+    {
+      "Question": "What's the purpose of a 'git commit' in version control?",
+      "Answers": {
+        "Answer-1": "To undo changes",
+        "Answer-2": "To save changes to a repository",
+        "Answer-3": "To merge branches",
+        "Answer-4": "To execute code"
+      },
+      "Correct-answer": "To save changes to a repository"
+    },
+    {
+      "Question": "What's the role of SQL in programming?",
+      "Answers": {
+        "Answer-1": "Styling web pages",
+        "Answer-2": "Managing databases",
+        "Answer-3": "Creating animations",
+        "Answer-4": "Designing user interfaces"
+      },
+      "Correct-answer": "Managing databases"
+    },
+    {
+      "Question": "What's the primary function of a 'function' in programming?",
+      "Answers": {
+        "Answer-1": "Declaring variables",
+        "Answer-2": "Performing a specific task",
+        "Answer-3": "Creating loops",
+        "Answer-4": "Styling HTML elements"
+      },
+      "Correct-answer": "Performing a specific task"
+    },
+    {
+      "Question": "What does the acronym 'HTTP' stand for in web development?",
+      "Answers": {
+        "Answer-1": "Hypertext Transfer Protocol",
+        "Answer-2": "Hyper Transfer Text Protocol",
+        "Answer-3": "Highway Text Transfer Protocol",
+        "Answer-4": "Hyperlink Transfer Protocol"
+      },
+      "Correct-answer": "Hypertext Transfer Protocol"
+    },
+    {
+      "Question": "What's the main purpose of a 'variable' in programming?",
+      "Answers": {
+        "Answer-1": "To store data temporarily",
+        "Answer-2": "To create animations",
+        "Answer-3": "To style web content",
+        "Answer-4": "To manage server requests"
+      },
+      "Correct-answer": "To store data temporarily"
+    },
+    {
+      "Question": "What is the purpose of the 'else' statement in programming?",
+      "Answers": {
+        "Answer-1": "To initiate a loop",
+        "Answer-2": "To handle exceptions",
+        "Answer-3": "To execute code when a condition is not met",
+        "Answer-4": "To create CSS rules"
+      },
+      "Correct-answer": "To execute code when a condition is not met"
+    },
+    {
+      "Question": "What does 'OOP' stand for in programming?",
+      "Answers": {
+        "Answer-1": "Open Object Programming",
+        "Answer-2": "Object-Oriented Programming",
+        "Answer-3": "Optimized Object Protocol",
+        "Answer-4": "Operational Object Process"
+      },
+      "Correct-answer": "Object-Oriented Programming"
+    },
+    {
+      "Question": "What is the role of 'libraries' in programming?",
+      "Answers": {
+        "Answer-1": "To format text",
+        "Answer-2": "To store data permanently",
+        "Answer-3": "To reuse code and simplify development",
+        "Answer-4": "To manage server connections"
+      },
+      "Correct-answer": "To reuse code and simplify development"
+    },
+    {
+      "Question": "What's the purpose of 'debugging' in programming?",
+      "Answers": {
+        "Answer-1": "To create user interfaces",
+        "Answer-2": "To test code and identify errors",
+        "Answer-3": "To define functions",
+        "Answer-4": "To handle database queries"
+      },
+      "Correct-answer": "To test code and identify errors"
+    },
+    {
+      "Question": "What's the primary goal of 'unit testing' in software development?",
+      "Answers": {
+        "Answer-1": "To design user experiences",
+        "Answer-2": "To ensure individual units of code work correctly",
+        "Answer-3": "To manage server resources",
+        "Answer-4": "To create animations"
+      },
+      "Correct-answer": "To ensure individual units of code work correctly"
+    },
+    {
+      "Question": "What's the purpose of 'inheritance' in object-oriented programming?",
+      "Answers": {
+        "Answer-1": "To store data",
+        "Answer-2": "To create new classes",
+        "Answer-3": "To manipulate HTML elements",
+        "Answer-4": "To reuse properties and methods of existing classes"
+      },
+      "Correct-answer": "To reuse properties and methods of existing classes"
+    },
+    {
+      "Question": "What's the primary role of 'algorithms' in programming?",
+      "Answers": {
+        "Answer-1": "To style web pages",
+        "Answer-2": "To create server connections",
+        "Answer-3": "To solve problems and perform specific tasks",
+        "Answer-4": "To manage database queries"
+      },
+      "Correct-answer": "To solve problems and perform specific tasks"
+    },
+    {
+      "Question": "What does 'DOM' stand for in web development?",
+      "Answers": {
+        "Answer-1": "Data Object Model",
+        "Answer-2": "Document Object Model",
+        "Answer-3": "Dynamic Object Method",
+        "Answer-4": "Design Object Mode"
+      },
+      "Correct-answer": "Document Object Model"
+    },
+    {
+      "Question": "What's the purpose of 'recursion' in programming?",
+      "Answers": {
+        "Answer-1": "To manage server-side logic",
+        "Answer-2": "To execute code in a loop",
+        "Answer-3": "To solve problems by breaking them into smaller instances of the same problem",
+        "Answer-4": "To handle CSS styling"
+      },
+      "Correct-answer": "To solve problems by breaking them into smaller instances of the same problem"
+    },
+    {
+      "Question": "What's the significance of 'version control systems' in software development?",
+      "Answers": {
+        "Answer-1": "To manage code changes and collaborate on projects",
+        "Answer-2": "To design user interfaces",
+        "Answer-3": "To create server connections",
+        "Answer-4": "To define functions"
+      },
+      "Correct-answer": "To manage code changes and collaborate on projects"
+    },
+    {
+      "Question": "What's the primary purpose of 'conditional statements' in programming?",
+      "Answers": {
+        "Answer-1": "To execute code repeatedly",
+        "Answer-2": "To handle different situations based on given conditions",
+        "Answer-3": "To create animations",
+        "Answer-4": "To manage databases"
+      },
+      "Correct-answer": "To handle different situations based on given conditions"
+    },
+    {
+      "Question": "What's the role of 'variables' in algorithms?",
+      "Answers": {
+        "Answer-1": "To define functions",
+        "Answer-2": "To store intermediate results",
+        "Answer-3": "To manipulate DOM elements",
+        "Answer-4": "To manage server requests"
+      },
+      "Correct-answer": "To store intermediate results"
+    },
+    {
+      "Question": "What's the primary function of 'asynchronous programming' in software development?",
+      "Answers": {
+        "Answer-1": "To slow down code execution",
+        "Answer-2": "To execute code sequentially",
+        "Answer-3": "To handle tasks concurrently without blocking other operations",
+        "Answer-4": "To create responsive web designs"
+      },
+      "Correct-answer": "To handle tasks concurrently without blocking other operations"
+    },
+    {
+      "Question": "What's the purpose of 'data structures' in programming?",
+      "Answers": {
+        "Answer-1": "To create server connections",
+        "Answer-2": "To manage database queries",
+        "Answer-3": "To organize and store data efficiently",
+        "Answer-4": "To handle CSS styling"
+      },
+      "Correct-answer": "To organize and store data efficiently"
+    },
+    {
+      "Question": "What's the primary goal of 'software testing' in development?",
+      "Answers": {
+        "Answer-1": "To write code",
+        "Answer-2": "To ensure code doesn't have bugs",
+        "Answer-3": "To manage server resources",
+        "Answer-4": "To create animations"
+      },
+      "Correct-answer": "To ensure code doesn't have bugs"
+    },
+    {
+      "Question": "What's the significance of 'compilers' in programming?",
+      "Answers": {
+        "Answer-1": "To convert code into machine-understandable language",
+        "Answer-2": "To manage database operations",
+        "Answer-3": "To handle CSS styling",
+        "Answer-4": "To create animations"
+      },
+      "Correct-answer": "To convert code into machine-understandable language"
+    },
+    {
+      "Question": "What's the primary purpose of 'comments' in code?",
+      "Answers": {
+        "Answer-1": "To execute code",
+        "Answer-2": "To communicate explanations or notes within the code",
+        "Answer-3": "To manage server connections",
+        "Answer-4": "To create web layouts"
+      },
+      "Correct-answer": "To communicate explanations or notes within the code"
+    },
+    {
+      "Question": "What's the role of 'testing frameworks' in software development?",
+      "Answers": {
+        "Answer-1": "To define functions",
+        "Answer-2": "To write code",
+        "Answer-3": "To facilitate and automate the testing process",
+        "Answer-4": "To manage database queries"
+      },
+      "Correct-answer": "To facilitate and automate the testing process"
+    },
+    {
+      "Question": "What does 'SSL' stand for in web security?",
+      "Answers": {
+        "Answer-1": "Security Socket Layer",
+        "Answer-2": "Secure Socket Layer",
+        "Answer-3": "Server Socket Layer",
+        "Answer-4": "Safe Socket Layer"
+      },
+      "Correct-answer": "Secure Socket Layer"
+    },
+    {
+      "Question": "What's the primary purpose of 'debugging tools' in programming?",
+      "Answers": {
+        "Answer-1": "To manage server resources",
+        "Answer-2": "To test code and identify errors",
+        "Answer-3": "To create animations",
+        "Answer-4": "To define functions"
+      },
+      "Correct-answer": "To test code and identify errors"
+    }
+  ],
+  "Animals": [
+    {
+      "Question": "What is the largest mammal on Earth?",
+      "Answers": {
+        "Answer-1": "Elephant",
+        "Answer-2": "Blue Whale",
+        "Answer-3": "Giraffe",
+        "Answer-4": "Hippopotamus"
+      },
+      "Correct-answer": "Blue Whale"
+    },
+    {
+      "Question": "Which animal is known for its black and white stripes?",
+      "Answers": {
+        "Answer-1": "Zebra",
+        "Answer-2": "Tiger",
+        "Answer-3": "Giraffe",
+        "Answer-4": "Leopard"
+      },
+      "Correct-answer": "Zebra"
+    },
+    {
+      "Question": "What do you call a young kangaroo?",
+      "Answers": {
+        "Answer-1": "Cub",
+        "Answer-2": "Joey",
+        "Answer-3": "Pup",
+        "Answer-4": "Fawn"
+      },
+      "Correct-answer": "Joey"
+    },
+    {
+      "Question": "Which bird is known for its ability to mimic human speech?",
+      "Answers": {
+        "Answer-1": "Parrot",
+        "Answer-2": "Owl",
+        "Answer-3": "Penguin",
+        "Answer-4": "Eagle"
+      },
+      "Correct-answer": "Parrot"
+    },
+    {
+      "Question": "What is the fastest land animal?",
+      "Answers": {
+        "Answer-1": "Cheetah",
+        "Answer-2": "Lion",
+        "Answer-3": "Leopard",
+        "Answer-4": "Gazelle"
+      },
+      "Correct-answer": "Cheetah"
+    },
+    {
+      "Question": "Which animal is known as the 'King of the Jungle'?",
+      "Answers": {
+        "Answer-1": "Tiger",
+        "Answer-2": "Lion",
+        "Answer-3": "Jaguar",
+        "Answer-4": "Leopard"
+      },
+      "Correct-answer": "Lion"
+    },
+    {
+      "Question": "What is the only mammal capable of flight?",
+      "Answers": {
+        "Answer-1": "Bat",
+        "Answer-2": "Bird",
+        "Answer-3": "Butterfly",
+        "Answer-4": "Pterosaur"
+      },
+      "Correct-answer": "Bat"
+    },
+    {
+      "Question": "Which animal sleeps standing up?",
+      "Answers": {
+        "Answer-1": "Gorilla",
+        "Answer-2": "Flamingo",
+        "Answer-3": "Koala",
+        "Answer-4": "Sloth"
+      },
+      "Correct-answer": "Flamingo"
+    },
+    {
+      "Question": "What animal is known for its ability to camouflage by changing colors?",
+      "Answers": {
+        "Answer-1": "Chameleon",
+        "Answer-2": "Octopus",
+        "Answer-3": "Cuttlefish",
+        "Answer-4": "Seahorse"
+      },
+      "Correct-answer": "Chameleon"
+    },
+    {
+      "Question": "What is the world's largest reptile?",
+      "Answers": {
+        "Answer-1": "Anaconda",
+        "Answer-2": "Alligator",
+        "Answer-3": "Crocodile",
+        "Answer-4": "Komodo Dragon"
+      },
+      "Correct-answer": "Crocodile"
+    },
+    {
+      "Question": "Which animal is known for its distinctive black and white appearance and bamboo diet?",
+      "Answers": {
+        "Answer-1": "Panda",
+        "Answer-2": "Koala",
+        "Answer-3": "Sloth",
+        "Answer-4": "Armadillo"
+      },
+      "Correct-answer": "Panda"
+    },
+    {
+      "Question": "What is the world's largest land animal?",
+      "Answers": {
+        "Answer-1": "Hippopotamus",
+        "Answer-2": "Giraffe",
+        "Answer-3": "Elephant",
+        "Answer-4": "Rhinoceros"
+      },
+      "Correct-answer": "Elephant"
+    },
+    {
+      "Question": "Which animal can be found in both freshwater and saltwater and has a distinctive 'V' shape when swimming?",
+      "Answers": {
+        "Answer-1": "Dolphin",
+        "Answer-2": "Penguin",
+        "Answer-3": "Seal",
+        "Answer-4": "Sea Turtle"
+      },
+      "Correct-answer": "Sea Turtle"
+    },
+    {
+      "Question": "What animal is known for carrying its young in a pouch?",
+      "Answers": {
+        "Answer-1": "Kangaroo",
+        "Answer-2": "Koala",
+        "Answer-3": "Sloth",
+        "Answer-4": "Armadillo"
+      },
+      "Correct-answer": "Kangaroo"
+    },
+    {
+      "Question": "Which animal is known for its long neck and spots?",
+      "Answers": {
+        "Answer-1": "Zebra",
+        "Answer-2": "Giraffe",
+        "Answer-3": "Llama",
+        "Answer-4": "Alpaca"
+      },
+      "Correct-answer": "Giraffe"
+    },
+    {
+      "Question": "What is the largest big cat in the world?",
+      "Answers": {
+        "Answer-1": "Leopard",
+        "Answer-2": "Tiger",
+        "Answer-3": "Cheetah",
+        "Answer-4": "Lion"
+      },
+      "Correct-answer": "Tiger"
+    },
+    {
+      "Question": "Which animal is known for rolling into a ball when threatened?",
+      "Answers": {
+        "Answer-1": "Armadillo",
+        "Answer-2": "Pangolin",
+        "Answer-3": "Hedgehog",
+        "Answer-4": "Porcupine"
+      },
+      "Correct-answer": "Armadillo"
+    },
+    {
+      "Question": "What animal is known as a 'man's best friend'?",
+      "Answers": {
+        "Answer-1": "Cat",
+        "Answer-2": "Horse",
+        "Answer-3": "Dog",
+        "Answer-4": "Rabbit"
+      },
+      "Correct-answer": "Dog"
+    },
+    {
+      "Question": "Which animal has the longest lifespan among mammals?",
+      "Answers": {
+        "Answer-1": "Elephant",
+        "Answer-2": "Blue Whale",
+        "Answer-3": "Giraffe",
+        "Answer-4": "Bowhead Whale"
+      },
+      "Correct-answer": "Bowhead Whale"
+    },
+    {
+      "Question": "What is the largest fish in the ocean?",
+      "Answers": {
+        "Answer-1": "Whale Shark",
+        "Answer-2": "Great White Shark",
+        "Answer-3": "Manta Ray",
+        "Answer-4": "Basking Shark"
+      },
+      "Correct-answer": "Whale Shark"
+    },
+    {
+      "Question": "Which bird is known for its ability to imitate various sounds including human speech?",
+      "Answers": {
+        "Answer-1": "Crow",
+        "Answer-2": "Raven",
+        "Answer-3": "Starling",
+        "Answer-4": "Lyrebird"
+      },
+      "Correct-answer": "Lyrebird"
+    },
+    {
+      "Question": "What animal is known for its ability to hibernate for long periods?",
+      "Answers": {
+        "Answer-1": "Bear",
+        "Answer-2": "Raccoon",
+        "Answer-3": "Squirrel",
+        "Answer-4": "Hedgehog"
+      },
+      "Correct-answer": "Bear"
+    },
+    {
+      "Question": "Which animal can change the color of its skin to blend with its surroundings?",
+      "Answers": {
+        "Answer-1": "Cuttlefish",
+        "Answer-2": "Octopus",
+        "Answer-3": "Chameleon",
+        "Answer-4": "Seahorse"
+      },
+      "Correct-answer": "Cuttlefish"
+    },
+    {
+      "Question": "What animal is known for its ability to build dams in rivers?",
+      "Answers": {
+        "Answer-1": "Beaver",
+        "Answer-2": "Otter",
+        "Answer-3": "Muskrat",
+        "Answer-4": "Mink"
+      },
+      "Correct-answer": "Beaver"
+    },
+    {
+      "Question": "Which animal is known for its distinctive black and white coloration and sharp scent glands?",
+      "Answers": {
+        "Answer-1": "Skunk",
+        "Answer-2": "Raccoon",
+        "Answer-3": "Badger",
+        "Answer-4": "Ferret"
+      },
+      "Correct-answer": "Skunk"
+    },
+    {
+      "Question": "What is the smallest species of monkey?",
+      "Answers": {
+        "Answer-1": "Tamarin",
+        "Answer-2": "Marmoset",
+        "Answer-3": "Gibbon",
+        "Answer-4": "Capuchin"
+      },
+      "Correct-answer": "Marmoset"
+    },
+    {
+      "Question": "Which animal has the best sense of smell among land animals?",
+      "Answers": {
+        "Answer-1": "Elephant",
+        "Answer-2": "Dog",
+        "Answer-3": "Bear",
+        "Answer-4": "Wolf"
+      },
+      "Correct-answer": "Bear"
+    },
+    {
+      "Question": "What animal is known for its ability to climb trees and hang upside down?",
+      "Answers": {
+        "Answer-1": "Sloth",
+        "Answer-2": "Koala",
+        "Answer-3": "Spider Monkey",
+        "Answer-4": "Gibbon"
+      },
+      "Correct-answer": "Sloth"
+    }
+  ],
+  "Science": [
+    {
+      "Question": "What is the center of an atom called?",
+      "Answers": {
+        "Answer-1": "Proton",
+        "Answer-2": "Neutron",
+        "Answer-3": "Electron",
+        "Answer-4": "Nucleus"
+      },
+      "Correct-answer": "Nucleus"
+    },
+    {
+      "Question": "What is the largest organ in the human body?",
+      "Answers": {
+        "Answer-1": "Heart",
+        "Answer-2": "Liver",
+        "Answer-3": "Brain",
+        "Answer-4": "Skin"
+      },
+      "Correct-answer": "Skin"
+    },
+    {
+      "Question": "Which planet is known as the 'Red Planet'?",
+      "Answers": {
+        "Answer-1": "Venus",
+        "Answer-2": "Mars",
+        "Answer-3": "Jupiter",
+        "Answer-4": "Saturn"
+      },
+      "Correct-answer": "Mars"
+    },
+    {
+      "Question": "What is the process by which plants make their food called?",
+      "Answers": {
+        "Answer-1": "Photosynthesis",
+        "Answer-2": "Respiration",
+        "Answer-3": "Fermentation",
+        "Answer-4": "Digestion"
+      },
+      "Correct-answer": "Photosynthesis"
+    },
+    {
+      "Question": "What is the unit of measurement for force?",
+      "Answers": {
+        "Answer-1": "Watt",
+        "Answer-2": "Newton",
+        "Answer-3": "Joule",
+        "Answer-4": "Volt"
+      },
+      "Correct-answer": "Newton"
+    },
+    {
+      "Question": "What is the closest star to Earth?",
+      "Answers": {
+        "Answer-1": "Alpha Centauri",
+        "Answer-2": "Betelgeuse",
+        "Answer-3": "Sirius",
+        "Answer-4": "Sun"
+      },
+      "Correct-answer": "Sun"
+    },
+    {
+      "Question": "Which scientist is known for the theory of general relativity?",
+      "Answers": {
+        "Answer-1": "Isaac Newton",
+        "Answer-2": "Albert Einstein",
+        "Answer-3": "Stephen Hawking",
+        "Answer-4": "Galileo Galilei"
+      },
+      "Correct-answer": "Albert Einstein"
+    },
+    {
+      "Question": "What is the process of a liquid turning into a gas at the surface called?",
+      "Answers": {
+        "Answer-1": "Evaporation",
+        "Answer-2": "Condensation",
+        "Answer-3": "Sublimation",
+        "Answer-4": "Vaporization"
+      },
+      "Correct-answer": "Evaporation"
+    },
+    {
+      "Question": "Which organ in the human body produces insulin?",
+      "Answers": {
+        "Answer-1": "Pancreas",
+        "Answer-2": "Liver",
+        "Answer-3": "Kidney",
+        "Answer-4": "Stomach"
+      },
+      "Correct-answer": "Pancreas"
+    },
+    {
+      "Question": "What causes the Earth's seasons?",
+      "Answers": {
+        "Answer-1": "Tilt of the Earth's axis",
+        "Answer-2": "Distance from the Sun",
+        "Answer-3": "Solar flares",
+        "Answer-4": "Global warming"
+      },
+      "Correct-answer": "Tilt of the Earth's axis"
+    },
+    {
+      "Question": "What is the chemical symbol for water?",
+      "Answers": {
+        "Answer-1": "H2O",
+        "Answer-2": "CO2",
+        "Answer-3": "O2",
+        "Answer-4": "H2SO4"
+      },
+      "Correct-answer": "H2O"
+    },
+    {
+      "Question": "What is the study of earthquakes called?",
+      "Answers": {
+        "Answer-1": "Biology",
+        "Answer-2": "Meteorology",
+        "Answer-3": "Seismology",
+        "Answer-4": "Geology"
+      },
+      "Correct-answer": "Seismology"
+    },
+    {
+      "Question": "Which gas do plants absorb for photosynthesis?",
+      "Answers": {
+        "Answer-1": "Oxygen",
+        "Answer-2": "Carbon Dioxide",
+        "Answer-3": "Nitrogen",
+        "Answer-4": "Methane"
+      },
+      "Correct-answer": "Carbon Dioxide"
+    },
+    {
+      "Question": "What is the unit of electric current?",
+      "Answers": {
+        "Answer-1": "Volt",
+        "Answer-2": "Ampere",
+        "Answer-3": "Watt",
+        "Answer-4": "Ohm"
+      },
+      "Correct-answer": "Ampere"
+    },
+    {
+      "Question": "Which planet is known for its rings?",
+      "Answers": {
+        "Answer-1": "Mars",
+        "Answer-2": "Venus",
+        "Answer-3": "Saturn",
+        "Answer-4": "Neptune"
+      },
+      "Correct-answer": "Saturn"
+    },
+    {
+      "Question": "What is the process of a gas turning into a liquid called?",
+      "Answers": {
+        "Answer-1": "Evaporation",
+        "Answer-2": "Condensation",
+        "Answer-3": "Sublimation",
+        "Answer-4": "Vaporization"
+      },
+      "Correct-answer": "Condensation"
+    },
+    {
+      "Question": "Which scientist proposed the theory of evolution?",
+      "Answers": {
+        "Answer-1": "Isaac Newton",
+        "Answer-2": "Charles Darwin",
+        "Answer-3": "Galileo Galilei",
+        "Answer-4": "Albert Einstein"
+      },
+      "Correct-answer": "Charles Darwin"
+    },
+    {
+      "Question": "What is the smallest unit of matter?",
+      "Answers": {
+        "Answer-1": "Atom",
+        "Answer-2": "Molecule",
+        "Answer-3": "Electron",
+        "Answer-4": "Neutron"
+      },
+      "Correct-answer": "Atom"
+    }
+  ],
+  "History": [
+    {
+      "Question": "Who was the first President of the United States?",
+      "Answers": {
+        "Answer-1": "Thomas Jefferson",
+        "Answer-2": "George Washington",
+        "Answer-3": "John Adams",
+        "Answer-4": "Abraham Lincoln"
+      },
+      "Correct-answer": "George Washington"
+    },
+    {
+      "Question": "Which civilization built the pyramids in Egypt?",
+      "Answers": {
+        "Answer-1": "Mesopotamians",
+        "Answer-2": "Greeks",
+        "Answer-3": "Romans",
+        "Answer-4": "Ancient Egyptians"
+      },
+      "Correct-answer": "Ancient Egyptians"
+    },
+    {
+      "Question": "When did World War I begin?",
+      "Answers": {
+        "Answer-1": "1910",
+        "Answer-2": "1914",
+        "Answer-3": "1917",
+        "Answer-4": "1919"
+      },
+      "Correct-answer": "1914"
+    },
+    {
+      "Question": "Which ancient civilization is known for the invention of writing (cuneiform script)?",
+      "Answers": {
+        "Answer-1": "Greek",
+        "Answer-2": "Egyptian",
+        "Answer-3": "Sumerian",
+        "Answer-4": "Roman"
+      },
+      "Correct-answer": "Sumerian"
+    },
+    {
+      "Question": "Who was the leader of the Soviet Union during the Cuban Missile Crisis?",
+      "Answers": {
+        "Answer-1": "Joseph Stalin",
+        "Answer-2": "Nikita Khrushchev",
+        "Answer-3": "Vladimir Lenin",
+        "Answer-4": "Mikhail Gorbachev"
+      },
+      "Correct-answer": "Nikita Khrushchev"
+    },
+    {
+      "Question": "When did the Renaissance period begin?",
+      "Answers": {
+        "Answer-1": "14th century",
+        "Answer-2": "15th century",
+        "Answer-3": "16th century",
+        "Answer-4": "17th century"
+      },
+      "Correct-answer": "14th century"
+    },
+    {
+      "Question": "Who was the first female Prime Minister of the United Kingdom?",
+      "Answers": {
+        "Answer-1": "Margaret Thatcher",
+        "Answer-2": "Queen Elizabeth I",
+        "Answer-3": "Theresa May",
+        "Answer-4": "Angela Merkel"
+      },
+      "Correct-answer": "Margaret Thatcher"
+    },
+    {
+      "Question": "Which ancient civilization built the city of Machu Picchu?",
+      "Answers": {
+        "Answer-1": "Maya",
+        "Answer-2": "Aztec",
+        "Answer-3": "Inca",
+        "Answer-4": "Olmec"
+      },
+      "Correct-answer": "Inca"
+    },
+    {
+      "Question": "Which battle marked the end of Napoleon Bonaparte's rule as Emperor of France?",
+      "Answers": {
+        "Answer-1": "Battle of Waterloo",
+        "Answer-2": "Battle of Trafalgar",
+        "Answer-3": "Battle of Austerlitz",
+        "Answer-4": "Battle of Leipzig"
+      },
+      "Correct-answer": "Battle of Waterloo"
+    },
+    {
+      "Question": "When did the American Civil War take place?",
+      "Answers": {
+        "Answer-1": "1812-1815",
+        "Answer-2": "1861-1865",
+        "Answer-3": "1914-1918",
+        "Answer-4": "1775-1783"
+      },
+      "Correct-answer": "1861-1865"
+    },
+    {
+      "Question": "Who discovered America?",
+      "Answers": {
+        "Answer-1": "Amerigo Vespucci",
+        "Answer-2": "Christopher Columbus",
+        "Answer-3": "Vasco da Gama",
+        "Answer-4": "Marco Polo"
+      },
+      "Correct-answer": "Christopher Columbus"
+    },
+    {
+      "Question": "Which ancient civilization is known for the creation of the Great Wall?",
+      "Answers": {
+        "Answer-1": "Persians",
+        "Answer-2": "Romans",
+        "Answer-3": "Greeks",
+        "Answer-4": "Chinese"
+      },
+      "Correct-answer": "Chinese"
+    },
+    {
+      "Question": "Who was the first emperor of unified China?",
+      "Answers": {
+        "Answer-1": "Qin Shi Huang",
+        "Answer-2": "Sun Tzu",
+        "Answer-3": "Mao Zedong",
+        "Answer-4": "Kublai Khan"
+      },
+      "Correct-answer": "Qin Shi Huang"
+    },
+    {
+      "Question": "Which war was fought between the North and South regions of the United States?",
+      "Answers": {
+        "Answer-1": "American Revolutionary War",
+        "Answer-2": "War of 1812",
+        "Answer-3": "Vietnam War",
+        "Answer-4": "American Civil War"
+      },
+      "Correct-answer": "American Civil War"
+    }
+  ],
+  "Sport": [
+    {
+      "Question": "Which country hosted the first modern Olympic Games in 1896?",
+      "Answers": {
+        "Answer-1": "France",
+        "Answer-2": "United States",
+        "Answer-3": "Greece",
+        "Answer-4": "United Kingdom"
+      },
+      "Correct-answer": "Greece"
+    },
+    {
+      "Question": "What sport does Usain Bolt hold the world record in?",
+      "Answers": {
+        "Answer-1": "100 meters sprint",
+        "Answer-2": "Marathon",
+        "Answer-3": "High jump",
+        "Answer-4": "Long jump"
+      },
+      "Correct-answer": "100 meters sprint"
+    },
+    {
+      "Question": "Which team won the FIFA World Cup in 2018?",
+      "Answers": {
+        "Answer-1": "Germany",
+        "Answer-2": "Argentina",
+        "Answer-3": "Brazil",
+        "Answer-4": "France"
+      },
+      "Correct-answer": "France"
+    },
+    {
+      "Question": "In which sport would you perform a 'slam dunk'?",
+      "Answers": {
+        "Answer-1": "Tennis",
+        "Answer-2": "Basketball",
+        "Answer-3": "Football",
+        "Answer-4": "Baseball"
+      },
+      "Correct-answer": "Basketball"
+    },
+    {
+      "Question": "Who is often referred to as 'The King of Clay' in tennis?",
+      "Answers": {
+        "Answer-1": "Roger Federer",
+        "Answer-2": "Novak Djokovic",
+        "Answer-3": "Rafael Nadal",
+        "Answer-4": "Andy Murray"
+      },
+      "Correct-answer": "Rafael Nadal"
+    },
+    {
+      "Question": "What's the primary objective of the sport 'archery'?",
+      "Answers": {
+        "Answer-1": "Throwing a discus at a target",
+        "Answer-2": "Shooting arrows at a target",
+        "Answer-3": "Kicking a ball into a goal",
+        "Answer-4": "Hitting a baseball with a bat"
+      },
+      "Correct-answer": "Shooting arrows at a target"
+    },
+    {
+      "Question": "Which country is known for originating the sport of Sumo wrestling?",
+      "Answers": {
+        "Answer-1": "China",
+        "Answer-2": "Japan",
+        "Answer-3": "India",
+        "Answer-4": "South Korea"
+      },
+      "Correct-answer": "Japan"
+    },
+    {
+      "Question": "In which sport would you find the terms 'birdie' and 'eagle'?",
+      "Answers": {
+        "Answer-1": "Golf",
+        "Answer-2": "Swimming",
+        "Answer-3": "Boxing",
+        "Answer-4": "Skating"
+      },
+      "Correct-answer": "Golf"
+    },
+    {
+      "Question": "Which sport involves 'punches' and 'jabs'?",
+      "Answers": {
+        "Answer-1": "Tennis",
+        "Answer-2": "Soccer",
+        "Answer-3": "Boxing",
+        "Answer-4": "Gymnastics"
+      },
+      "Correct-answer": "Boxing"
+    },
+    {
+      "Question": "What is the highest achievable break in snooker?",
+      "Answers": {
+        "Answer-1": "147",
+        "Answer-2": "180",
+        "Answer-3": "200",
+        "Answer-4": "100"
+      },
+      "Correct-answer": "147"
+    },
+    {
+      "Question": "Which sport is associated with 'Wimbledon'?",
+      "Answers": {
+        "Answer-1": "Cricket",
+        "Answer-2": "Tennis",
+        "Answer-3": "Rugby",
+        "Answer-4": "Hockey"
+      },
+      "Correct-answer": "Tennis"
+    },
+    {
+      "Question": "In which event do athletes compete for the 'Green Jacket'?",
+      "Answers": {
+        "Answer-1": "Olympic triathlon",
+        "Answer-2": "Tour de France",
+        "Answer-3": "Masters Tournament (Golf)",
+        "Answer-4": "Super Bowl"
+      },
+      "Correct-answer": "Masters Tournament (Golf)"
+    },
+    {
+      "Question": "Which country is known for popularizing the sport of 'Parkour'?",
+      "Answers": {
+        "Answer-1": "France",
+        "Answer-2": "Germany",
+        "Answer-3": "United States",
+        "Answer-4": "Brazil"
+      },
+      "Correct-answer": "France"
+    },
+    {
+      "Question": "Which sport features terms like 'puck', 'slapshot', and 'power play'?",
+      "Answers": {
+        "Answer-1": "Basketball",
+        "Answer-2": "Ice hockey",
+        "Answer-3": "Volleyball",
+        "Answer-4": "Fencing"
+      },
+      "Correct-answer": "Ice hockey"
+    },
+    {
+      "Question": "Which country is known for popularizing 'Kung Fu'?",
+      "Answers": {
+        "Answer-1": "Japan",
+        "Answer-2": "India",
+        "Answer-3": "China",
+        "Answer-4": "Thailand"
+      },
+      "Correct-answer": "China"
+    },
+    {
+      "Question": "Which sport uses terms like 'hook', 'jab', and 'uppercut'?",
+      "Answers": {
+        "Answer-1": "Wrestling",
+        "Answer-2": "Boxing",
+        "Answer-3": "Judo",
+        "Answer-4": "Taekwondo"
+      },
+      "Correct-answer": "Boxing"
+    },
+    {
+      "Question": "What's the term for a perfect score in a game of bowling?",
+      "Answers": {
+        "Answer-1": "Strike",
+        "Answer-2": "Spare",
+        "Answer-3": "Turkey",
+        "Answer-4": "300"
+      },
+      "Correct-answer": "300"
+    },
+    {
+      "Question": "Which sport is played on a diamond-shaped field and features 'stealing bases'?",
+      "Answers": {
+        "Answer-1": "Soccer",
+        "Answer-2": "Baseball",
+        "Answer-3": "Golf",
+        "Answer-4": "Tennis"
+      },
+      "Correct-answer": "Baseball"
+    },
+    {
+      "Question": "What does 'MMA' stand for in the context of sports?",
+      "Answers": {
+        "Answer-1": "Mixed Martial Arts",
+        "Answer-2": "Multiple Match Arena",
+        "Answer-3": "Major Martial Arts",
+        "Answer-4": "Modern Martial Applications"
+      },
+      "Correct-answer": "Mixed Martial Arts"
+    },
+    {
+      "Question": "Which sport is associated with a 'try', 'scrum', and 'lineout'?",
+      "Answers": {
+        "Answer-1": "Rugby",
+        "Answer-2": "Tennis",
+        "Answer-3": "Badminton",
+        "Answer-4": "Volleyball"
+      },
+      "Correct-answer": "Rugby"
+    },
+    {
+      "Question": "In which sport would you find a 'quarterback'?",
+      "Answers": {
+        "Answer-1": "American football",
+        "Answer-2": "Skiing",
+        "Answer-3": "Track and field",
+        "Answer-4": "Horse racing"
+      },
+      "Correct-answer": "American football"
+    },
+    {
+      "Question": "What's the objective of 'figure skating'?",
+      "Answers": {
+        "Answer-1": "Scoring goals",
+        "Answer-2": "Performing aerial stunts",
+        "Answer-3": "Executing choreographed movements on ice",
+        "Answer-4": "Running long distances"
+      },
+      "Correct-answer": "Executing choreographed movements on ice"
+    },
+    {
+      "Question": "Which sport features 'half-pipes' and 'rails'?",
+      "Answers": {
+        "Answer-1": "Snowboarding",
+        "Answer-2": "Skateboarding",
+        "Answer-3": "Surfing",
+        "Answer-4": "Water skiing"
+      },
+      "Correct-answer": "Snowboarding"
+    },
+    {
+      "Question": "Which sport uses a 'cue stick' and 'balls'?",
+      "Answers": {
+        "Answer-1": "Table tennis",
+        "Answer-2": "Bowling",
+        "Answer-3": "Snooker",
+        "Answer-4": "Gymnastics"
+      },
+      "Correct-answer": "Snooker"
+    },
+    {
+      "Question": "What is the primary objective of 'fencing'?",
+      "Answers": {
+        "Answer-1": "Throwing a ball into a net",
+        "Answer-2": "Hitting a shuttlecock over a net",
+        "Answer-3": "Competing in races",
+        "Answer-4": "Using swords to score points against an opponent"
+      },
+      "Correct-answer": "Using swords to score points against an opponent"
+    },
+    {
+      "Question": "Which sport features 'strokes' and 'laps'?",
+      "Answers": {
+        "Answer-1": "Swimming",
+        "Answer-2": "Diving",
+        "Answer-3": "Golf",
+        "Answer-4": "Cycling"
+      },
+      "Correct-answer": "Swimming"
+    },
+    {
+      "Question": "What is the objective of 'curling'?",
+      "Answers": {
+        "Answer-1": "Hitting a target with a ball",
+        "Answer-2": "Sliding stones on ice towards a target",
+        "Answer-3": "Riding waves on a board",
+        "Answer-4": "Kicking a ball into a goal"
+      },
+      "Correct-answer": "Sliding stones on ice towards a target"
+    }
+  ],
+  "Business": [
+    {
+      "Question": "Who is considered the world's richest person as of 2023?",
+      "Answers": {
+        "Answer-1": "Elon Musk",
+        "Answer-2": "Jeff Bezos",
+        "Answer-3": "Bernard Arnault",
+        "Answer-4": "Warren Buffett"
+      },
+      "Correct-answer": "Elon Musk"
+    },
+    {
+      "Question": "What does 'IPO' stand for in the business world?",
+      "Answers": {
+        "Answer-1": "Initial Private Offering",
+        "Answer-2": "International Profit Order",
+        "Answer-3": "Initial Public Offering",
+        "Answer-4": "Internal Profit Outcome"
+      },
+      "Correct-answer": "Initial Public Offering"
+    },
+    {
+      "Question": "Which company is known for its search engine that shares its name with the term 'googol'?",
+      "Answers": {
+        "Answer-1": "Apple",
+        "Answer-2": "Microsoft",
+        "Answer-3": "Google",
+        "Answer-4": "Amazon"
+      },
+      "Correct-answer": "Google"
+    },
+    {
+      "Question": "What is the economic term for the total value of all goods and services produced in a country within a specific time frame?",
+      "Answers": {
+        "Answer-1": "Gross National Product (GNP)",
+        "Answer-2": "Gross Domestic Product (GDP)",
+        "Answer-3": "Net National Income (NNI)",
+        "Answer-4": "Personal Income (PI)"
+      },
+      "Correct-answer": "Gross Domestic Product (GDP)"
+    },
+    {
+      "Question": "Which tech company's symbol is a bitten apple?",
+      "Answers": {
+        "Answer-1": "Samsung",
+        "Answer-2": "Microsoft",
+        "Answer-3": "Apple",
+        "Answer-4": "Dell"
+      },
+      "Correct-answer": "Apple"
+    },
+    {
+      "Question": "What is the term used to describe a situation in which a company is unable to pay off its financial obligations?",
+      "Answers": {
+        "Answer-1": "Profit",
+        "Answer-2": "Bankruptcy",
+        "Answer-3": "Investment",
+        "Answer-4": "Liquidation"
+      },
+      "Correct-answer": "Bankruptcy"
+    },
+    {
+      "Question": "Who is known as the founder of Microsoft?",
+      "Answers": {
+        "Answer-1": "Elon Musk",
+        "Answer-2": "Steve Jobs",
+        "Answer-3": "Bill Gates",
+        "Answer-4": "Larry Page"
+      },
+      "Correct-answer": "Bill Gates"
+    },
+    {
+      "Question": "Which term is used to describe the financial return on an investment?",
+      "Answers": {
+        "Answer-1": "Interest",
+        "Answer-2": "Dividend",
+        "Answer-3": "Profit",
+        "Answer-4": "Return on Investment (ROI)"
+      },
+      "Correct-answer": "Return on Investment (ROI)"
+    },
+    {
+      "Question": "What does 'CEO' stand for in the corporate world?",
+      "Answers": {
+        "Answer-1": "Chief Executive Officer",
+        "Answer-2": "Chief Experience Officer",
+        "Answer-3": "Chief Financial Officer",
+        "Answer-4": "Chief Operating Officer"
+      },
+      "Correct-answer": "Chief Executive Officer"
+    },
+    {
+      "Question": "Which economic term refers to the overall slowdown in economic activity over a sustained period?",
+      "Answers": {
+        "Answer-1": "Inflation",
+        "Answer-2": "Deflation",
+        "Answer-3": "Recession",
+        "Answer-4": "Stagflation"
+      },
+      "Correct-answer": "Recession"
+    },
+    {
+      "Question": "What's the term for a business that operates to achieve social or environmental objectives while also generating profits?",
+      "Answers": {
+        "Answer-1": "Nonprofit",
+        "Answer-2": "For-profit",
+        "Answer-3": "Social enterprise",
+        "Answer-4": "Corporate conglomerate"
+      },
+      "Correct-answer": "Social enterprise"
+    },
+    {
+      "Question": "Which currency is used in Japan?",
+      "Answers": {
+        "Answer-1": "Yuan",
+        "Answer-2": "Dollar",
+        "Answer-3": "Euro",
+        "Answer-4": "Yen"
+      },
+      "Correct-answer": "Yen"
+    },
+    {
+      "Question": "What term refers to a financial market where securities are bought and sold after their initial offering?",
+      "Answers": {
+        "Answer-1": "Primary market",
+        "Answer-2": "Secondary market",
+        "Answer-3": "Bond market",
+        "Answer-4": "Commodity market"
+      },
+      "Correct-answer": "Secondary market"
+    },
+    {
+      "Question": "Which company's slogan is 'Just Do It'?",
+      "Answers": {
+        "Answer-1": "Adidas",
+        "Answer-2": "Nike",
+        "Answer-3": "Reebok",
+        "Answer-4": "Puma"
+      },
+      "Correct-answer": "Nike"
+    },
+    {
+      "Question": "What term describes the total amount of money a company receives from selling its goods or services?",
+      "Answers": {
+        "Answer-1": "Revenue",
+        "Answer-2": "Profit",
+        "Answer-3": "Income",
+        "Answer-4": "Capital"
+      },
+      "Correct-answer": "Revenue"
+    },
+    {
+      "Question": "Which economic concept refers to the rise in the general price level of goods and services over time?",
+      "Answers": {
+        "Answer-1": "Deflation",
+        "Answer-2": "Inflation",
+        "Answer-3": "Recession",
+        "Answer-4": "Stagflation"
+      },
+      "Correct-answer": "Inflation"
+    }
+  ]
+}

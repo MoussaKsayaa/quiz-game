@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Game</title>
+    <link
+      rel="stylesheet"
+      href="style.css" />
+  </head>
+  <body>
+    <div class="quiz-game">
+      <audio src="./music/interface-124464.mp3" preload="auto" class="correct-sound"></audio>
+      <audio src="./music/wronganswer-37702.mp3" preload="auto" class="wrong-sound"></audio>
+      <div class="header">
+        <div class="container">
+          <div class="logo">
+            <a href="#index">Quiz Game</a>
+          </div>
+          <div class="category">Category <span>Programming</span></div>
+        </div>
+      </div>
+      <div class="container content">
+        <div class="details-side">
+          <div class="score">Score: <span>0</span></div>
+          <div class="countdown">
+            <span class="min">00</span>:<span class="sec">00</span>
+          </div>
+          <div class="quiz-number">
+            <span class="current">1</span>/<span class="total">10</span>
+          </div>
+        </div>
+        <div class="question-box">
+          <div class="question"></div>
+          <div class="answers">
+            <div class="answer">
+              <input
+                type="radio"
+                id="answer1"
+                name="question" />
+              <label for="answer1"></label>
+            </div>
+            <div class="answer">
+              <input
+                type="radio"
+                id="answer2"
+                name="question" />
+              <label for="answer2"></label>
+            </div>
+            <div class="answer">
+              <input
+                type="radio"
+                id="answer3"
+                name="question" />
+              <label for="answer3"></label>
+            </div>
+            <div class="answer">
+              <input
+                type="radio"
+                id="answer4"
+                name="question" />
+              <label for="answer4"></label>
+            </div>
+          </div>
+          <button class="next" type="submit" disabled>check</button>
+        </div>
+        <div class="spans">
+          <span class="active">1</span>
+          <span>2</span>
+          <span>3</span>
+          <span>4</span>
+          <span>5</span>
+          <span>6</span>
+          <span>7</span>
+          <span>8</span>
+          <span>9</span>
+          <span>10</span>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="container">
+          <p class="copyright">© Copyright Quiz Game <span class="time">2023</span></p>
+          <p class="dev">made with 💙 by <a href="https://t.me/u_5_1" target="_blank" rel="noopener">Moussa Ksayaa</a></p>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
