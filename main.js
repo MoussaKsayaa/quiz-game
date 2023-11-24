@@ -17,7 +17,8 @@ let correctSound = document.querySelector(".correct-sound");
 let wrongSound = document.querySelector(".wrong-sound");
 LS.setItem("category", "Programming");
 categoryElement.innerHTML = LS.getItem("category");
-
+let copyrightDateElement = document.querySelector(".copyright .time");
+let copyrightDate = new Date();
 function getData() {
   let data = new XMLHttpRequest();
   data.open("GET", "./questions.json");
@@ -44,10 +45,12 @@ function getData() {
       nextBtnElement.onclick = () => {
         nextBtn(correctAnswer, dataJson, categoryNames);
       };
+      copyrightDateElement.innerHTML = copyrightDate.getFullYear();
     }
   };
 }
 getData();
+// to sort the answers different every time.
 function randomAnswers(answers) {
   let answersList = [];
   let answersNumber = Object.keys(answers).length;
@@ -62,6 +65,7 @@ function randomAnswers(answers) {
     answerElement[i].firstElementChild.setAttribute("value", i + 1);
   }
 }
+// countdown function to count down.
 let countdown;
 function countDown(categoryNames, dataJson) {
   clearInterval(countdown);
@@ -76,6 +80,7 @@ function countDown(categoryNames, dataJson) {
     }
   }, 1000);
 }
+// the action for button when clicking on.
 function nextBtn(correctAnswer, dataJson, categoryNames) {
   nextBtnElement.innerHTML = "Next";
   answers.forEach((ans) => {
@@ -118,7 +123,7 @@ function nextBtn(correctAnswer, dataJson, categoryNames) {
     }
   });
 }
-
+// the pop up element that should be appearing when the question finished to give us the details.
 function popUpFinish(categoryNames, dataJson) {
   let overlay = document.createElement("div");
   overlay.className = "overlay";
@@ -153,7 +158,7 @@ function popUpFinish(categoryNames, dataJson) {
     createCategorySelection(categoryNames, dataJson);
   };
 }
-
+// to give us the default values when calling it.
 function getDefaultValues(answers, categoryNames, dataJson) {
   if (questionsNumber === 10) {
     popUpFinish(categoryNames, dataJson);
@@ -176,7 +181,7 @@ function getDefaultValues(answers, categoryNames, dataJson) {
     nextBtnElement.innerHTML = "Check";
   });
 }
-
+// to choose random question every time.
 function chooseRandomQuestion(dataJson) {
   let questionElement = document.querySelector(".question-box .question");
   let category = LS.getItem("category");
@@ -193,7 +198,6 @@ function chooseRandomQuestion(dataJson) {
   randomAnswers(answers);
   return correctAnswer;
 }
-
 // function to change the category
 function createCategorySelection(categoryNames, dataJson) {
   let overlay = document.createElement("div");

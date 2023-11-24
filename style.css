@@ -195,7 +195,7 @@ a {
   background-color: var(--blue);
 }
 .question-box .answer.correct label {
-  background-color: #00C853 !important;
+  background-color: #00c853 !important;
 }
 .question-box .answer.wrong label {
   background-color: #ff1d1d !important;
@@ -255,7 +255,10 @@ a {
   animation: active 1.5s infinite alternate ease-in-out;
 }
 @keyframes active {
-  0%, 20%, 100%, 80% {
+  0%,
+  20%,
+  100%,
+  80% {
     background-color: white;
     color: black;
   }
