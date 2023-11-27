@@ -97,8 +97,8 @@ function nextBtn(correctAnswer, dataJson, categoryNames) {
         score++;
         scoreElement.innerHTML = score;
         nextBtnElement.onclick = () => {
-          correctAnswer = chooseRandomQuestion(dataJson);
           getDefaultValues(answers, categoryNames, dataJson);
+          correctAnswer = chooseRandomQuestion(dataJson);
           nextBtnElement.onclick = () => {
             nextBtn(correctAnswer, dataJson, categoryNames);
           };
@@ -112,8 +112,8 @@ function nextBtn(correctAnswer, dataJson, categoryNames) {
           }
           ans.firstElementChild.setAttribute("disabled", "");
           nextBtnElement.onclick = () => {
-            correctAnswer = chooseRandomQuestion(dataJson);
             getDefaultValues(answers, categoryNames, dataJson);
+            correctAnswer = chooseRandomQuestion(dataJson);
             nextBtnElement.onclick = () => {
               nextBtn(correctAnswer, dataJson, categoryNames);
             };
@@ -187,16 +187,18 @@ function chooseRandomQuestion(dataJson) {
   let category = LS.getItem("category");
   let questions = dataJson[category];
   let randomNumber = Math.round(Math.random() * (questions.length - 1));
-  randomArray.includes(randomNumber)
-    ? chooseRandomQuestion(dataJson)
-    : randomArray.push(randomNumber);
-  let question = questions[randomNumber];
-  let myQuestion = question["Question"];
-  questionElement.innerHTML = myQuestion;
-  let answers = question["Answers"];
-  let correctAnswer = question["Correct-answer"];
-  randomAnswers(answers);
-  return correctAnswer;
+  if (randomArray.includes(randomNumber)) {
+    chooseRandomQuestion(dataJson);
+  } else {
+    randomArray.push(randomNumber);
+    let question = questions[randomNumber];
+    let myQuestion = question["Question"];
+    questionElement.innerHTML = myQuestion;
+    let answers = question["Answers"];
+    let correctAnswer = question["Correct-answer"];
+    randomAnswers(answers);
+    return correctAnswer;
+  }
 }
 // function to change the category
 function createCategorySelection(categoryNames, dataJson) {
@@ -221,6 +223,7 @@ function createCategorySelection(categoryNames, dataJson) {
   document.body.appendChild(overlay);
   document.querySelectorAll(".items .box .item").forEach((item) => {
     item.addEventListener("click", () => {
+      randomArray = [];
       score = 0;
       scoreElement.innerHTML = score;
       questionsNumber = 1;
