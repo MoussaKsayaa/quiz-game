@@ -190,6 +190,7 @@ function chooseRandomQuestion(dataJson) {
   randomArray.includes(randomNumber)
     ? chooseRandomQuestion(dataJson)
     : randomArray.push(randomNumber);
+  console.log(randomArray);
   let question = questions[randomNumber];
   let myQuestion = question["Question"];
   questionElement.innerHTML = myQuestion;
