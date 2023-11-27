@@ -187,18 +187,16 @@ function chooseRandomQuestion(dataJson) {
   let category = LS.getItem("category");
   let questions = dataJson[category];
   let randomNumber = Math.round(Math.random() * (questions.length - 1));
-  if (randomArray.includes(randomNumber)) {
-    chooseRandomQuestion(dataJson);
-  } else {
-    randomArray.push(randomNumber);
-    let question = questions[randomNumber];
-    let myQuestion = question["Question"];
-    questionElement.innerHTML = myQuestion;
-    let answers = question["Answers"];
-    let correctAnswer = question["Correct-answer"];
-    randomAnswers(answers);
-    return correctAnswer;
-  }
+  randomArray.includes(randomNumber)
+    ? chooseRandomQuestion(dataJson)
+    : randomArray.push(randomNumber);
+  let question = questions[randomNumber];
+  let myQuestion = question["Question"];
+  questionElement.innerHTML = myQuestion;
+  let answers = question["Answers"];
+  let correctAnswer = question["Correct-answer"];
+  randomAnswers(answers);
+  return correctAnswer;
 }
 // function to change the category
 function createCategorySelection(categoryNames, dataJson) {
